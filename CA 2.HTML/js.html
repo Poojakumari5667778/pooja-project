@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!-- <script src="js2.js"></script> -->
+</head>
+<body>
+    <p id="d1"></p>
+ <script>
+//  document.getElementById("d1").innerText="<b>Hello</b>"
+//  document.write("Hello World<br>")
+// console.log("Hello from console")
+// var a
+// a=5
+// b=20
+// {
+// var c="hello"
+// }
+// document.write(c)
+// var a=10
+// a=20
+// let e=2
+// // lete=34
+// var a=10
+// var b=20
+// c=a+b
+// document.write("The additional",c,"<br>")
+// c=a-b
+// document.write("The subtractor",c,"<br>")
+// c=a*b
+// document.write("The multiplication",c,"<br>")
+// c=a/b
+// document.write("The dividion",c,"<br>")
+// c=a**b
+// document.write("The Exponent",c,"<br>")
+// c=a%b
+// document.write("The modulus",c,"<br>")
+// var a=20
+// var b=20
+// var c="Hello"
+// var d="Hello"
+// document.write(d==c)
+// document.write(d===c)
+// document.write(a<=b)
+// document.write(a>=b)
+// document.write(a!=b)
+// document.write(a!==b)
+// a=10
+// b=20
+// c=30
+// document.write(a==b && b==c)
+// document.write(a==b || b==c)
+// var age=18
+// document.write(age>19?"Adult":"young")
+// a=10
+// b=20
+// c=30
+// if(a>b && a>c)
+// {
+// document.write("a is greatest")}
+// else if(b>c && b>a)
+// {document.write("b is greatest")}
+// else{document.write("c is greatest")}
+// a=10
+// b=20
+// var c
+// c = a
+// a = b
+// b = c
+// document.write(a)
+// document.write(b)
+// a=10
+// b=20
+// var c
+// c=a
+// a=b
+// b=c
+// document.write(a)
+// document.write(b)
+// a=10
+// b=20
+// a=a+b
+// b=a-b
+// document.write(a)
+// document.write(b)
+
+// switch(a){
+// case 1:
+//     document. write("monday")
+//     break;
+// case 2:
+//     document.write("tuesday")
+//     break;
+// case 3:
+//     document.write("wednesday")
+//     break;
+// case 4:
+//     document.write("thursday")
+//     break;
+// case 5:
+//     document.write("friday")
+//     break;
+// case 6:
+//     document.write("saturday")
+//     break;
+// case 7:
+//     document.write("sunday")
+//     break;
+// default:
+//     document.write("no day")
+//     break;}
+// for(i=1; i<=1000; i++){
+//     document.write(i+"<br>")
+// }
+// var n=19
+// for(i=1; i=10; i++){
+//     document.write(n + "**" + i +"=" + n*i + "<br>")}
+//     var n=19
+//     for(i=1; i<=10; i++){
+//         document.write(n + "*" + i+ "=" +"=" +n*i)
+//         var j=1}
+//         while(j<10)
+//     {
+//         docuiment.write(j+"<br>")
+//         j++
+//     }
+//     var k=0
+//     do{
+//         document.write(k)
+//         k++
+//     }
+//     while(k<10);
+    alert("hello")
+    if (confirm("press OK to confirm!")){
+     txt = "you pressed OK!";
+}
+    else{
+        txt = "you pressed cancel!";
+    }
+    document.write(txt)
+
+    let num1=prompt("enter a number","enter number")
+    let num2=prompt("enter 2nd number")
+    num1=parseInt(num1)
+    num2=parseInt(num2)
+    result=num1+num2
+    document.write(result)
+    document.write("The sum is " + result)
+    document.write(The sum is ${result})
+
+
+    function print(){
+        return "hello"
+    }
+    document.write(print())
+
+    function add(a,b){
+        return a+b
+    }
+    document.write(add(5,10))
+
+</script> 
+<button onclick="fun1()">submit</button> 
+<button onclick="fun1()">submit</button>
+
+</body>
+<script>
+    function print(){
+        alert("hi")
+        document.getElementById("demo").innerHTML=ele
+        document.getElementById("demo1").style.backgroundcolor=ele
+        function coo(elem){
+            var x=elem.clientx
+            var y=elem.clienty
+            var c= "x coor are" + x +"y coor are " + y
+            document.getElementById("div1").innerHTML=c
+           var abc = document.getElementById("n1").ariaValueMax
+            alert(abc)
+            aleet("key pressed")
+            var flag=true
+            if(do)
+            if(document.getElementById("n2")).value="submit">
+            document.getElementById("e1").innerHTML="name can not be empty"
+            flag=(false)
+            else{
+                document.getElementById("e1").innerHTML=""
+                if(document.getElementbyId("n3").value==""){
+
+                }
+            }
+            return flag
+        }
+    }
+</script>
+<button onclick="print()">submit</button>
+<button ondclick="print()">submit</button>
+<button oncomtextmenu="print()">submit</button>
+<p id ="demo">onmouseover="insert()">some random text</p>
+onmouseleave="insert('mouse hovering removed')">some random text</
+<p id="demo1" onmousedown="col()" onmouse="col()">change</p>
+<div id="div1" style="height: 100px; width: 100px;  border: 1px solid;"
+onmousemove="coo(event)"></div>
+<form>
+    <input type="text" placeholder="name" id="n1"
+    <input type="submit" value="submit">
+</form> onsubmit="ale()">
+<input type="text" onkeypress ="press()" onkeydown="press()">
+<input type="text" id="n2" placeholder="name">
+<span id="e1"></span>
+<input type="number" id="n3" placeholder="enter age">
+<span id="e2"></span>
+<input type="submit" value="submit">
+</html>
+<body>
+    <script>
+
+
+
+        var obj1={
+            name:"rohit"
+            age:20,
+            print:function(){
+                return this.name
+                return "rohit"
+            }
+        }
+        document.write(obj1.name)
+        document.write(obj1.age)
+        document.write(obj1.print())
+    
+
+
+var obj2=new object()
+obj2.name="rohit"
+obj2["age"]=21
+obj2.print1=function(){
+    return "hello"
+}
